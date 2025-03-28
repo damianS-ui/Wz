@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <!-- info dla przeglądarki-->
+    <title>walidacja formularza</title>
+</head>
+<body>
+    
+<header>
+    <h1>Formularz rejestracyjny</h1>
+</header>
+<main>
+
+<form action="">
+<div class="box">
+    <label for="username">nazwa użytkownika:</label>
+    <input type="text" id="username" placeholder="podaj nazwe użytkownika">
+    <p class="error_message"></p>
+</div>
+<!--email-->
+<div class="box">
+<label for="email">adres email:</label>
+<input type="email" id="email" placeholder="podaj adres email">
+<p class="error_message"></p>
+</div>
+
+<!--haslo-->
+<div class="box">
+<label for="haslo">podaj hasło:</label>
+<input type="password" id="haslo">
+<p class="error_message"></p>
+</div>
+<!--powtorz-->
+<div class="box">
+<label for="haslo2">powtórz hasło:</label>
+<input type="password" id="haslo2">
+<p class="error_message"></p>
+</div>
+<!--zatwierdzenie-->
+<div class="box">
+    <input type="checkbox" id="terms">
+    <label for="terms">Zapoznałem/am sie z regulaminem i akceptuje go.</label>
+</div>
+    
+<div class="buttons">
+    <input type="reset" value="resetuj formularz" class="reset">
+    <input type="submit" value="wyślij" class="submit" />
+</div>
+
+</form>
+
+</main>
+<footer>
+<p>Projekt WSB marito Gdynia 2025</p>
+</footer>
+<Script src="./script.js"></Script>
+<script src="./sw.js" ></script>
+</body>
+</html>
