@@ -7,7 +7,7 @@
     "orientation": "portrait",
     "scope": "/",
     "start_url": "/Wz",
-    "icons": [
+    "icon": [
         {
             "src": "./logo.png",
             "sizes": "512x512",
