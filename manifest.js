@@ -1,0 +1,20 @@
+{
+    "name": "Zadanie",
+    "short_name": "APP",
+    "theme_color": "#3e9ae3",
+    "background_color": "#2196f3",
+    "display": "fullscreen",
+    "orientation": "portrait",
+    "scope": "/",
+    "start_url": "/Wz"
+    "icons": [
+        {
+            "src": "./logo.png",
+            "sizes": "512x512",
+            "type": "image/png"
+          }
+
+
+
+    ]
+  }
